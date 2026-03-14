@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align:center;
 }
 
 img {
@@ -24,3 +25,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.flex-wrapper {
+  justify-content:center;
+  margin:32px;
+  gap:52px;
+  display: flex;
+
+}
+
+.plant {
+  /*
+  display:flex;
+  flex-flow: column wrap;
+  align-items:center; */
+  max-width:200px; /* <- only one that matters */
+}
+/* can put in body, for all text
+.text {
+  text-align:center;
+}
+  */ 
